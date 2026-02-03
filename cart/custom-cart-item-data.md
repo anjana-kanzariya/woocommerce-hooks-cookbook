@@ -7,10 +7,10 @@ Add custom data (e.g. booking number, project code, comment, etc) to a cart item
 POST → cart item → order item → read from order
 
 ## Hooks used
-- `woocommerce_add_cart_item_data` – Adds custom data to the cart item before it is stored.
-- `woocommerce_get_item_data` – Displays custom cart item data in Cart & Checkout.
-- `woocommerce_checkout_create_order_line_item` – Persists cart item data into the order line item.
-- `woocommerce_checkout_order_processed` – Example hook showing how order item meta can be accessed later.
+- `woocommerce_add_cart_item_data` - Adds custom data to the cart item before it is stored.
+- `woocommerce_get_item_data` - Displays custom cart item data in Cart & Checkout.
+- `woocommerce_checkout_create_order_line_item` - Persists cart item data into the order line item.
+- `woocommerce_checkout_order_processed` - Example hook showing how order item meta can be accessed later.
 
 ## Code
 ```php

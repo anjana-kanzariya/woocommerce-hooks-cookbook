@@ -28,6 +28,12 @@ Also, be cautious when copying hooks/code directly — adapt variable names, pro
    Validates cart items based on custom fields before checkout.  
    File: `validate-cart-items.md`
 
+3. **Custom Checkout Fields – Full Lifecycle**  
+   Add, validate, save, and display custom checkout fields including delivery date.  
+   Covers modifying existing fields (label, priority, required) and admin visibility.  
+   File: `add-modify-checkout-fields.md`
+
+
 ## Contribution
 
 - Follow the same structure for new examples:  

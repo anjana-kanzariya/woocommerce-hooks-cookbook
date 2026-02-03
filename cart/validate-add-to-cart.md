@@ -10,7 +10,7 @@ Validation for custom cart item data such as:
 cart item → validation → block checkout (error notice)
 
 ## Hooks used
-`woocommerce_check_cart_items` – Runs on cart & checkout load and is the primary validation hook
+`woocommerce_check_cart_items` - Runs on cart & checkout load and is the primary validation hook
 
 ## Code
 ```php
